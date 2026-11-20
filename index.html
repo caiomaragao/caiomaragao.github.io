@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caio Machado Aragão — Design Engineer | Engenharia de Software &amp; Design Gráfico</title>
+  <meta name="description" content="Portfólio de Caio Machado Aragão — Design Engineer unindo Engenharia de Software e Design Gráfico para construir sites, apps e sistemas completos em Brasília, DF.">
+  <meta name="author" content="Caio Machado Aragão">
+  <meta property="og:title" content="Caio Machado Aragão — Design Engineer">
+  <meta property="og:description" content="Unindo a parte técnica da programação com a direção criativa da identidade visual para construir sites, apps e sistemas completos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://caiomaragao.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23141414'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-weight='800' font-size='28'%3ECA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Pular para o conteúdo principal</a>
+
+  <!-- Navegação Flutuante -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-pill" aria-label="Navegação principal">
+      <a href="#inicio" class="brand-mark" aria-label="Início — Caio Aragão">CAIO ARAGÃO</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#formacao" class="nav-link">Formação</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contato" class="btn-nav-cta" id="nav-contact-cta">
+          <span>Contato</span>
+          <svg class="icon-arrow" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4.5 11.5L11.5 4.5M11.5 4.5H5.5M11.5 4.5V10.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu de navegação">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <ul class="mobile-menu-list">
+        <li><a href="#sobre" class="mobile-menu-link">Sobre Mim</a></li>
+        <li><a href="#projetos" class="mobile-menu-link">Projetos</a></li>
+        <li><a href="#habilidades" class="mobile-menu-link">Habilidades</a></li>
+        <li><a href="#formacao" class="mobile-menu-link">Formação &amp; Certificações</a></li>
+        <li><a href="#contato" class="mobile-menu-link mobile-menu-cta">Contato ↗</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <!-- 1. INÍCIO (HERO BENTO) -->
+    <section class="section hero-section" id="inicio" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-bento">
+          <!-- Card Principal -->
+          <article class="bento-card hero-primary reveal">
+            <div class="hero-top">
+              <p class="eyebrow">DESIGN ENGINEER · PORTFÓLIO</p>
+              <h1 class="hero-title" id="hero-title">Caio Machado<br>Aragão</h1>
+              <p class="hero-role">
+                <strong>Design Engineer —</strong><br>
+                Engenharia de Software &amp; Design Gráfico
+              </p>
+              <p class="hero-summary">
+                Unindo a parte técnica da programação com a direção criativa da identidade visual para construir sites, apps e sistemas completos.
+              </p>
+            </div>
+
+            <div class="hero-footer">
+              <a href="#projetos" class="btn-primary" id="hero-explore-btn">
+                <span>Explorar Projetos</span>
+                <svg class="icon-arrow" width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M4.5 11.5L11.5 4.5M11.5 4.5H5.5M11.5 4.5V10.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a href="#sobre" class="scroll-hint">
+                <span>Role para explorar</span>
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Coluna Lateral do Hero -->
+          <div class="hero-side">
+            <!-- Card Localização & Links -->
+            <article class="bento-card hero-location reveal">
+              <div class="location-header">
+                <span class="eyebrow eyebrow-blue">LOCALIZAÇÃO</span>
+                <span class="location-pin" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M3.6 9H20.4M3.6 15H20.4M12 3C14.5 5.6 15.8 8.7 15.8 12C15.8 15.3 14.5 18.4 12 21C9.5 18.4 8.2 15.3 8.2 12C8.2 8.7 9.5 5.6 12 3Z" stroke="currentColor" stroke-width="1.5"/>
+                  </svg>
+                </span>
+              </div>
+
+              <div class="hero-profile-row">
+                <img
+                  src="images/foto-perfil.jpg"
+                  alt="Foto de perfil de Caio Machado Aragão"
+                  class="profile-avatar"
+                  width="80"
+                  height="80"
+                  decoding="async"
+                >
+                <div class="hero-profile-meta">
+                  <h2 class="location-title">Brasília, DF,<br>Brasil</h2>
+                </div>
+              </div>
+
+              <div class="location-links-wrap">
+                <span class="micro-label">LINKS DIRETOS</span>
+                <div class="social-row">
+                  <div class="social-buttons">
+                    <a href="https://github.com/caiomaragao" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub de Caio Machado Aragão" title="GitHub">
+                      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+                      </svg>
+                    </a>
+                    <a href="https://www.behance.net/caiomachado32" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Behance de Caio Machado Aragão" title="Behance">
+                      <span class="social-monogram" aria-hidden="true">Bē</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/caio-machado-arag%C3%A3o-378019325/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn de Caio Machado Aragão" title="LinkedIn">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M4.98 3.5a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96ZM3 9h4v12H3V9Zm7 0h3.83v1.64h.05c.53-1.01 1.84-2.08 3.79-2.08 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94V21h-4V9Z"/>
+                      </svg>
+                    </a>
+                  </div>
+                  <a href="#contato" class="social-more" aria-label="Ir para a seção de contato">↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card Ilustrativo Código + Design -->
+            <article class="bento-card hero-visual-card reveal" aria-label="Síntese visual de código e design">
+              <div class="hybrid-graphic" aria-hidden="true">
+                <svg class="hybrid-svg" viewBox="0 0 260 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Símbolo de código </> -->
+                  <path d="M52 37L24 56L52 75" stroke="#2563EB" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M84 31L66 81" stroke="#2563EB" stroke-width="5.5" stroke-linecap="round"/>
+                  <path d="M98 37L126 56L98 75" stroke="#2563EB" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <!-- Frame de design rotacionado -->
+                  <g transform="rotate(11 196 56)">
+                    <rect x="158" y="18" width="76" height="76" rx="4" fill="#FFFFFF" fill-opacity="0.72" stroke="#2563EB" stroke-width="2" stroke-dasharray="6 5"/>
+                    <rect x="154" y="14" width="7" height="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.8"/>
+                    <rect x="231" y="14" width="7" height="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.8"/>
+                    <rect x="154" y="91" width="7" height="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.8"/>
+                    <rect x="231" y="91" width="7" height="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.8"/>
+                    <circle cx="196" cy="56" r="22" fill="#2563EB"/>
+                  </g>
+                </svg>
+              </div>
+              <p class="hero-visual-caption">
+                CÓDIGO + IDENTIDADE VISUAL<br>
+                SISTEMAS COMPLETOS
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SOBRE MIM -->
+    <section class="section about-section" id="sobre" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / SOBRE MIM</p>
+          <h2 class="section-title" id="about-title">Duas disciplinas. Uma mente curiosa.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="bento-card about-story reveal">
+            <h3 class="card-heading">A curiosidade é o fio condutor.</h3>
+            <p class="body-copy">
+              Com interesse constante por tecnologia e pelo uso do computador, busco aprender como funcionam sites, aplicativos, bancos de dados e sistemas por dentro. Tenho facilidade com lógica de programação, focando o aprendizado em dominar os comandos e recursos de cada linguagem para transformar ideias diretamente em código.
+            </p>
+            <p class="body-copy">
+              Em paralelo, trago um perfil criativo desde a infância, desenhando e criando personagens e histórias. Ingressei no Design Gráfico para amadurecer academicamente e direcionar a criatividade a objetivos concretos — conectando a parte técnica da programação com a criação de identidade visual e experiência de uso em sites, aplicativos e projetos digitais.
+            </p>
+          </article>
+
+          <aside class="bento-card about-roots reveal" aria-labelledby="roots-title">
+            <h3 class="card-heading" id="roots-title">Raízes Criativas</h3>
+            <ul class="roots-list">
+              <li class="root-item">
+                <span class="root-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 20H21M16.5 3.5A2.12 2.12 0 1 1 19.5 6.5L7 19L3 20L4 16L16.5 3.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span class="root-label">Desenho</span>
+              </li>
+              <li class="root-item">
+                <span class="root-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.8"/>
+                    <path d="M5 20C5.8 16.6 8.6 14.5 12 14.5C15.4 14.5 18.2 16.6 19 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="root-label">Criação de personagens</span>
+              </li>
+              <li class="root-item">
+                <span class="root-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path d="M4 5.5C4 4.67 4.67 4 5.5 4H11C12.1 4 13 4.9 13 6V20C13 18.9 12.1 18 11 18H5.5C4.67 18 4 17.33 4 16.5V5.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                    <path d="M20 5.5C20 4.67 19.33 4 18.5 4H15C13.9 4 13 4.9 13 6V20C13 18.9 13.9 18 15 18H18.5C19.33 18 20 17.33 20 16.5V5.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span class="root-label">Criação de histórias e narrativas</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. PROJETOS -->
+    <section class="section projects-section" id="projetos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="projects-header reveal">
+          <div class="section-heading">
+            <p class="eyebrow">02 / PROJETOS SELECIONADOS</p>
+            <h2 class="section-title" id="projects-title">Ideias que ganham forma.</h2>
+          </div>
+
+          <div class="filter-bar" role="group" aria-label="Filtrar projetos por categoria">
+            <button type="button" class="filter-pill is-active" data-filter="all" aria-pressed="true" id="filter-all">Todos</button>
+            <button type="button" class="filter-pill" data-filter="UI/UX" aria-pressed="false" id="filter-uiux">UI/UX</button>
+            <button type="button" class="filter-pill" data-filter="Design Gráfico" aria-pressed="false" id="filter-design">Design Gráfico</button>
+            <button type="button" class="filter-pill" data-filter="Engenharia de Software" aria-pressed="false" id="filter-eng">Engenharia &amp; Dados</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projeto 1: Destaque Full-Width -->
+          <article class="project-card project-card--featured reveal" data-category="UI/UX" data-project-id="plataforma-maes-solo">
+            <div class="project-stage stage-edu">
+              <div class="stage-meta-top">
+                <span>01 / UI/UX · DESTAQUE</span>
+                <span>PROTÓTIPO FIGMA · EM EQUIPE</span>
+              </div>
+
+              <div class="edu-browser" aria-hidden="true">
+                <div class="edu-browser-bar">
+                  <div class="browser-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="browser-url">aprender.edu.br/cursos</div>
+                </div>
+                <div class="edu-browser-body">
+                  <div class="edu-nav">
+                    <span class="edu-logo">Aprender.</span>
+                    <div class="edu-nav-items">
+                      <span>Como funciona</span>
+                      <span>Cursos</span>
+                      <span>Meu ritmo</span>
+                    </div>
+                  </div>
+                  <div class="edu-content">
+                    <div class="edu-hero-col">
+                      <span class="edu-badge">EDUCAÇÃO FLEXÍVEL PARA MÃES SOLO</span>
+                      <p class="edu-headline">Seu futuro,<br>no seu tempo.</p>
+                      <p class="edu-copy">Cursos em leitura e videoaula avaliados por provas, pensados para conciliar estudos e maternidade.</p>
+                      <span class="edu-btn">Começar agora →</span>
+                    </div>
+                    <div class="edu-steps-col">
+                      <span class="edu-steps-label">TRILHA FLEXÍVEL</span>
+                      <div class="edu-step edu-step--active">
+                        <span class="edu-step-num">01</span>
+                        <div>
+                          <strong>Leia e descubra</strong>
+                          <span>Aulas curtas para estudar no celular</span>
+                        </div>
+                      </div>
+                      <div class="edu-step">
+                        <span class="edu-step-num">02</span>
+                        <div>
+                          <strong>Assista a videoaulas</strong>
+                          <span>No horário que fizer sentido para você</span>
+                        </div>
+                      </div>
+                      <div class="edu-step">
+                        <span class="edu-step-num">03</span>
+                        <div>
+                          <strong>Pratique e avance</strong>
+                          <span>Provas leves com certificação</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="stage-meta-bottom">
+                <span>HORÁRIOS 100% FLEXÍVEIS · LEITURA, VIDEOAULA &amp; PROVAS</span>
+                <span>MÉDIA / ALTA FIDELIDADE</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <div>
+                  <h3 class="project-title">Plataforma Educacional para Mães Solo</h3>
+                  <p class="project-status">Protótipo de média/alta fidelidade no Figma</p>
+                </div>
+                <button type="button" class="project-open-btn" data-open-project="plataforma-maes-solo" aria-label="Ver detalhes de Plataforma Educacional para Mães Solo">
+                  ↗
+                </button>
+              </div>
+              <p class="project-desc">
+                Protótipo desenvolvido em equipe com alunos de design para um site educacional voltado a mães solteiras ou jovens que precisam estudar sem atrapalhar a criação dos filhos. Oferece cursos em leitura e videoaula avaliados por provas, com horários 100% flexíveis.
+              </p>
+              <ul class="tag-list" aria-label="Tags do projeto">
+                <li>UI/UX</li>
+                <li>Figma</li>
+                <li>Prototipagem</li>
+                <li>Design Educacional</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Projeto 2: Banco de Dados -->
+          <article class="project-card reveal" data-category="Engenharia de Software" data-project-id="banco-dados-comercio">
+            <div class="project-stage stage-sql stage-has-media">
+              <div class="stage-meta-top stage-meta-light">
+                <span>02 / ENGENHARIA DE SOFTWARE</span>
+              </div>
+
+              <div class="stage-media-frame stage-media-diagram">
+                <img
+                  src="images/banco-dados-mapa-logico.jpg"
+                  alt="Diagrama lógico do projeto Banco de Dados Comércio Digital mostrando entidades Cliente, Pedido, Pagamento, Produto, Categoria e Endereço"
+                  class="stage-media-img stage-media-img--contain"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </div>
+
+              <div class="stage-meta-bottom stage-meta-light">
+                <span>MODELO CONCEITUAL, LÓGICO &amp; SCRIPTS SQL</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <div>
+                  <h3 class="project-title">Banco de Dados Comércio Digital</h3>
+                  <p class="project-status">Documentado no GitHub</p>
+                </div>
+                <button type="button" class="project-open-btn" data-open-project="banco-dados-comercio" aria-label="Ver detalhes de Banco de Dados Comércio Digital">
+                  ↗
+                </button>
+              </div>
+              <p class="project-desc">
+                Projeto de modelagem relacional completo contendo modelos conceitual e lógico, scripts SQL com triggers automatizadas e documentação técnica.
+              </p>
+              <ul class="tag-list" aria-label="Tags do projeto">
+                <li>Banco de Dados</li>
+                <li>SQL</li>
+                <li>MySQL/MariaDB</li>
+                <li>GitHub</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Projeto 3: Punk Desires -->
+          <article class="project-card reveal" data-category="Design Gráfico" data-project-id="punk-desires">
+            <div class="project-stage stage-punk stage-has-media">
+              <div class="stage-meta-top">
+                <span>03 / DESIGN GRÁFICO</span>
+              </div>
+
+              <div class="stage-media-frame stage-media-poster">
+                <img
+                  src="images/punk-desires-miv.png"
+                  alt="Manual de Identidade Visual da marca Punk Desires com pôster emoldurado e tipografia punk"
+                  class="stage-media-img stage-media-img--cover"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </div>
+
+              <div class="stage-meta-bottom">
+                <span>BRANDING &amp; DIREÇÃO VISUAL</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <div>
+                  <h3 class="project-title">Punk Desires</h3>
+                  <p class="project-status">Concluído</p>
+                </div>
+                <button type="button" class="project-open-btn" data-open-project="punk-desires" aria-label="Ver detalhes de Punk Desires">
+                  ↗
+                </button>
+              </div>
+              <p class="project-desc">
+                Desenvolvimento de identidade visual e branding para marca de moda íntima com estética punk.
+              </p>
+              <ul class="tag-list" aria-label="Tags do projeto">
+                <li>Branding</li>
+                <li>Identidade Visual</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Projeto 4: Redesign Embalagem Kapo -->
+          <article class="project-card reveal" data-category="Design Gráfico" data-project-id="redesign-kapo">
+            <div class="project-stage stage-kapo stage-has-media">
+              <div class="stage-meta-top">
+                <span>04 / DESIGN GRÁFICO</span>
+              </div>
+
+              <div class="kapo-artwork kapo-artwork--real">
+                <div class="kapo-copy">
+                  <p class="kapo-headline">UM NOVO OLHAR<br>NA EMBALAGEM.</p>
+                </div>
+                <div class="kapo-label-frame">
+                  <img
+                    src="images/kapo-rotulo-frente.jpg"
+                    alt="Redesign do rótulo frontal da embalagem de suco Kapo Sabor Uva com ilustração botânica"
+                    class="kapo-label-img"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </div>
+              </div>
+
+              <div class="stage-meta-bottom">
+                <span>ADAPTAÇÃO TÉCNICA · 357 ML · BEHANCE</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <div>
+                  <h3 class="project-title">Redesign Embalagem Kapo</h3>
+                  <p class="project-status">Publicado no Behance</p>
+                </div>
+                <button type="button" class="project-open-btn" data-open-project="redesign-kapo" aria-label="Ver detalhes de Redesign Embalagem Kapo">
+                  ↗
+                </button>
+              </div>
+              <p class="project-desc">
+                Estudo de caso de redesign de embalagem de suco Kapo, incluindo a adaptação técnica e o recálculo da tabela nutricional para 357 ml.
+              </p>
+              <ul class="tag-list" aria-label="Tags do projeto">
+                <li>Design Gráfico</li>
+                <li>Embalagem</li>
+                <li>Behance</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Projeto 5: Mitologia Nórdica -->
+          <article class="project-card reveal" data-category="Design Gráfico" data-project-id="mitologia-nordica">
+            <div class="project-stage stage-nordic stage-has-media">
+              <div class="stage-meta-top">
+                <span>05 / DESIGN GRÁFICO</span>
+              </div>
+
+              <div class="nordic-artwork nordic-artwork--real">
+                <div class="nordic-copy">
+                  <p class="nordic-headline">MITOS,<br>RECOMPOSTOS.</p>
+                </div>
+                <div class="nordic-cover-frame">
+                  <img
+                    src="images/mitos-e-sagas-capa.png"
+                    alt="Capa do redesign editorial Mitos e Sagas Nórdicos com círculo de runas luminosas e tipografia dourada"
+                    class="nordic-cover-img"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </div>
+              </div>
+
+              <div class="stage-meta-bottom">
+                <span>CAPA, DIAGRAMAÇÃO &amp; TIPOGRAFIA CUSTOMIZADA</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <div>
+                  <h3 class="project-title">Redesign Editorial – Mitologia Nórdica</h3>
+                  <p class="project-status">Concluído</p>
+                </div>
+                <button type="button" class="project-open-btn" data-open-project="mitologia-nordica" aria-label="Ver detalhes de Redesign Editorial – Mitologia Nórdica">
+                  ↗
+                </button>
+              </div>
+              <p class="project-desc">
+                Projeto de redesign de capa e diagramação interna de livro com temática de mitologia nórdica e tipografia customizada.
+              </p>
+              <ul class="tag-list" aria-label="Tags do projeto">
+                <li>Design Editorial</li>
+                <li>Diagramação</li>
+                <li>Tipografia</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 & 5. HABILIDADES + FORMAÇÃO & CERTIFICAÇÕES -->
+    <section class="section toolkit-section" id="habilidades" aria-labelledby="toolkit-title">
+      <div class="container">
+        <div class="toolkit-header reveal">
+          <div class="section-heading">
+            <p class="eyebrow">03 / HABILIDADES &amp; FORMAÇÃO</p>
+            <h2 class="section-title" id="toolkit-title">Um repertório em evolução.</h2>
+          </div>
+          <p class="toolkit-note">DESIGN · CÓDIGO · FORMAÇÃO ACADÊMICA</p>
+        </div>
+
+        <div class="toolkit-grid">
+          <!-- Card 1: Design & Experiência -->
+          <article class="bento-card toolkit-card reveal">
+            <p class="eyebrow eyebrow-blue">DESIGN &amp; EXPERIÊNCIA</p>
+            <h3 class="card-heading">Design &amp; UX</h3>
+            <ul class="skill-pills" aria-label="Habilidades em Design e Experiência">
+              <li>Figma</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe Photoshop</li>
+              <li>Krita</li>
+              <li>Wireframing</li>
+              <li>Prototipagem</li>
+              <li>Design Systems</li>
+              <li>Acessibilidade (WCAG)</li>
+            </ul>
+          </article>
+
+          <!-- Card 2: Desenvolvimento & Dados -->
+          <article class="bento-card toolkit-card reveal">
+            <p class="eyebrow eyebrow-blue">DESENVOLVIMENTO &amp; DADOS</p>
+            <h3 class="card-heading">Código &amp; Dados</h3>
+            <ul class="skill-pills" aria-label="Habilidades em Desenvolvimento e Dados">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>C</li>
+              <li>SQL (MySQL/MariaDB)</li>
+              <li>MongoDB</li>
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+            <p class="toolkit-card-foot">
+              Base sólida em lógica de programação, transformando ideias diretamente em código limpo e estruturado.
+            </p>
+          </article>
+
+          <!-- Card 3: Formação, Certificações & Idiomas -->
+          <article class="bento-card toolkit-card education-card reveal" id="formacao">
+            <p class="eyebrow eyebrow-blue">ACADÊMICO &amp; CERTIFICADOS</p>
+            <h3 class="card-heading">Formação &amp; Certificações</h3>
+
+            <div class="edu-block">
+              <h4 class="edu-institution">Centro Universitário UDF</h4>
+              <p class="edu-courses">Engenharia de Software &amp; Design Gráfico</p>
+              <p class="edu-meta">Brasília, DF · Início 2026 · Previsão Engenharia: 2031</p>
+            </div>
+
+            <div class="edu-divider" role="separator"></div>
+
+            <ul class="cert-list" aria-label="Certificações">
+              <li class="cert-item">
+                <div class="cert-main">
+                  <strong>Google UX Design Professional Certificate</strong>
+                  <span class="cert-date">Concluído em Mar 2026</span>
+                </div>
+                <span class="cert-score">95.52%</span>
+              </li>
+              <li class="cert-item">
+                <div class="cert-main">
+                  <strong>MongoDB CRUD Operations</strong>
+                  <span class="cert-date">Concluído em Set 2026</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="edu-divider" role="separator"></div>
+
+            <div class="languages-block">
+              <span class="micro-label">IDIOMAS</span>
+              <ul class="languages-list" aria-label="Idiomas">
+                <li><strong>Português</strong> <span>Nativo</span></li>
+                <li><strong>Inglês</strong> <span>Intermediário</span></li>
+                <li><strong>Espanhol</strong> <span>Básico</span></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. CONTATO / FOOTER -->
+  <footer class="site-footer" id="contato" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="footer-top reveal">
+        <div class="footer-heading-group">
+          <p class="eyebrow eyebrow-light">04 / CONTATO</p>
+          <h2 class="footer-title" id="contact-title">Vamos construir algo<br>juntos.</h2>
+        </div>
+        <p class="footer-copy">
+          Página pessoal e portfólio para apresentar trajetória, projetos e habilidades em Design e Engenharia de Software.
+        </p>
+      </div>
+
+      <div class="footer-actions reveal">
+        <a href="#contato" class="btn-footer-primary" id="footer-email-btn">
+          <span>E-mail</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/caio-machado-arag%C3%A3o-378019325/" target="_blank" rel="noopener noreferrer" class="btn-footer-outline" id="footer-linkedin-btn">
+          <span>LinkedIn</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a href="https://github.com/caiomaragao" target="_blank" rel="noopener noreferrer" class="btn-footer-outline" id="footer-github-btn">
+          <span>GitHub</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a href="https://www.behance.net/caiomachado32" target="_blank" rel="noopener noreferrer" class="btn-footer-outline" id="footer-behance-btn">
+          <span>Behance</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Caio Machado Aragão</p>
+        <p>Brasília, DF, Brasil · Engenharia de Software &amp; Design Gráfico</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de Detalhes do Projeto / Contato -->
+  <div class="modal-backdrop" id="detail-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <span class="eyebrow eyebrow-blue" id="modal-category">PROJETO</span>
+        <button type="button" class="modal-close" id="modal-close" aria-label="Fechar janela">✕</button>
+      </div>
+      <h3 class="modal-title" id="modal-title"></h3>
+      <p class="modal-status" id="modal-status"></p>
+      <figure class="modal-media" id="modal-media" hidden>
+        <img src="" alt="" id="modal-image" class="modal-image" decoding="async">
+      </figure>
+      <p class="modal-description" id="modal-description"></p>
+      <ul class="tag-list modal-tags" id="modal-tags"></ul>
+      <div class="modal-footer" id="modal-footer"></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
