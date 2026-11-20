@@ -39,7 +39,7 @@ const PORTFOLIO_DATA = {
       imagemAlt:
         'Diagrama lógico do projeto Banco de Dados Comércio Digital com tabelas Cliente, Pedido, Pagamento, Produto, Categoria e Endereço',
       ctaLabel: 'Explorar no GitHub',
-      ctaUrl: 'https://github.com/caiomaragao'
+      ctaUrl: 'https://github.com/caiomaragao/database-comercio-digital'
     },
     'punk-desires': {
       nome: 'Punk Desires',
@@ -75,6 +75,30 @@ const PORTFOLIO_DATA = {
       imagem: 'images/mitos-e-sagas-capa.png',
       imagemAlt: 'Capa do redesign editorial Mitos e Sagas Nórdicos',
       ctaLabel: 'Ver portfólio no Behance',
+      ctaUrl: 'https://www.behance.net/caiomachado32'
+    },
+    'site-morcego': {
+      nome: 'Site Murgueço — Site sobre Morcegos',
+      categoria: 'Engenharia de Software',
+      tags: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'GitHub'],
+      status: 'Publicado no GitHub',
+      descricao:
+        'Página informativa e responsiva sobre morcegos desenvolvida com HTML5, CSS3, Bootstrap 5 e JavaScript para apresentar informações biológicas, curiosidades e desmistificar lendas, com cards, carrossel, accordions e popovers interativos.',
+      imagem: 'images/site-morcego.png',
+      imagemAlt: 'Ilustração gravada de morcego sobre fundo laranja do projeto Site Murgueço',
+      ctaLabel: 'Ver repositório no GitHub',
+      ctaUrl: 'https://github.com/caiomaragao/Site_Morcego'
+    },
+    'revista-oscar': {
+      nome: 'Projeto Editorial – Revista do Oscar',
+      categoria: 'Design Gráfico',
+      tags: ['Design Editorial', 'Diagramação', 'Direção de Arte', 'Behance'],
+      status: 'Publicado no Behance',
+      descricao:
+        'Projeto editorial da revista "Treta Nossa de Cada Dia — Oscar Banned" (Edição #12), explorando direção de arte cinematográfica, tipografia de alto impacto e diagramação de capa e matérias sobre os bastidores e banimentos da Academia.',
+      imagem: 'images/revista-oscar.png',
+      imagemAlt: 'Capa editorial da revista Treta Nossa de Cada Dia — Oscar Banned',
+      ctaLabel: 'Ver projeto no Behance',
       ctaUrl: 'https://www.behance.net/caiomachado32'
     }
   }
@@ -153,7 +177,7 @@ function initMobileMenu() {
  */
 function initScrollSpy() {
   const navLinks = Array.from(document.querySelectorAll('.nav-link'));
-  const observedIds = ['sobre', 'projetos', 'habilidades', 'formacao'];
+  const observedIds = ['sobre', 'projetos', 'habilidades'];
   const targets = observedIds
     .map((id) => document.getElementById(id))
     .filter(Boolean);
