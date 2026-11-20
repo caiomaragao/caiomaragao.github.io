@@ -14,7 +14,7 @@ const PORTFOLIO_DATA = {
       github: 'https://github.com/caiomaragao',
       behance: 'https://www.behance.net/caiomachado32',
       linkedin: 'https://www.linkedin.com/in/caio-machado-arag%C3%A3o-378019325/',
-      email: ''
+      email: 'caiomaragao@gmail.com'
     }
   },
   projetos: {
